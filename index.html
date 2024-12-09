@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primera pagina web</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="Twenty One Pilots,Clique,Tyler Joseph,Josh Dun">
+	<meta name="description" content="Pagina destinada a tener informacion referida a la banda Estadounidense Twenty One Pilots sus albums y canciones, etc">
+	<meta name="author" content="Warrior">
+	<meta name="copyright" content="Twenty One Pilots">	
+	<meta name="robots" content="index">
+
+</head>
+<body>
+	<!--
+		--Una etiqueta es lo que se escribe dentro de los <etiqueta> y al cerrarlo se tiene un objeto <etiqueta> </etiqueta>
+		--Asi mismo dentro de la etiqueta se tienen atributos <etiqueta atributo> </etiqueta>
+		--El atributo tiene un valor el cual se representa con comillas y un igual <etiqueta atributo ="Valor"> </etiqueta>
+
+
+		--Para poder comentar se nesesitan la combinacion de arriba.
+		--Dentro del "<html>" ira dentro todo el codigo.
+		--Dentro de "<head>" ira todo el codigo que no se podra ver en la pagina a exepción 
+			del <title>Primera pagina web</title> que sera lo que se mostrara lo que esta arriba en el nombre de la pestaña de la pagina web(configuraciones, enlaces al estilo,etc).
+		--Dentro del "<body>" ira todo lo que se puede ver en la pagina(Se ponen toda la pagina, los 	botones, las cajas,las figuras, las secciones, etc) 
+		
+		--Para colocar texto aleatorio
+			lorem mas tecla de tabular
+
+		--Diferntes formas de titulos:
+			<h1>Hola mundo</h1>
+			<h2>Hola mundo</h2>
+			<h3>Hola mundo</h3>
+			<h4>Hola mundo</h4>
+			<h5>Hola mundo</h5>
+			<h6>Hola mundo</h6>
+
+		--Tipos de letras:
+			<b>Negrita</b>
+			<i>Italica</i>
+			<strike>Tachada</strike>
+			<small>Letras chicas</small>
+		
+		--Salto de renglón:
+			<br>
+
+
+
+	ENLACES:
+		--Para abrir una pagina web se usa dentro de las comillas ira el enlace y entre los > < se
+		 	escribe para entrar al enlace:
+			<a href=""></a>
+		
+		Se agrega target="_BLANK" para que se abra en una pestaña nueva:
+		<a href= target="_BLANK"></a>
+
+		Existen rutas locales y rutas externas (enlaces)
+		--Las rutas locales son las que estan dentro de nuestra carpeta la que tenemos nosotros como 	usuarios(dentro de nuestro servidor).
+		--Las ruta externas son las que no se ecuentran de manera local, las que no se enlazan de manera local.
+		
+		--Para redirigir a una ruta localque se encuentra dentro de la misma carpeta solo se debe 		colocar el nombre de el arcivo en lugar de la direccion web.
+		--Si el archivo se encuentra dentro de otra carpeta se debe colocar el nombre de la carpeta seguido de una barra / (LA BARRA ES PARA ENTRAR A UN ARHIVO DENTRO DE UNBA CARPETA)
+			Ejemplo: 
+				<br><a href="carpeta/Pagina2.html">Ruta interna</a>
+			Y para poder volver a la anterior carpeta se nesesita poner dos puntos y una barra ../     (LOS DOS PUNTOS Y LA BARRA SIRVEN PARA VOLVER A ATRAS DE UNA CARPETA)
+			Ejemplo:
+				<a href="../index.html">Volver a la pagina principal</a>
+
+
+
+	LISTAS:
+		para abrir una lista se nesesita usar(dentro de "li" va un obeto de tu lista) :
+		<ul>
+			<li> </li>
+			
+		</ul>
+		--Si se quiere una lista numerica se utiliza en lugar de "ul" se utiliza un "<ol>"
+
+
+
+	MULTIMEDIA:
+		--Para poner una imagen se pone esto (Adentro iria el link o directorio local):
+			<img src="">
+			Para el tamaño de la imagen (no recomendado):
+			<img src="" height="600px" width="600px">
+
+		--Para reproducir un video(Para añadir las opciones de un video agregar "controls"):
+		<video src="" controls=""></video>
+		
+
+		--Para agregar audio solo se cambia lo de video por audio:
+		<audio src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls=""></audio>
+		
+		Un video random:
+		<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls=""></video>
+	
+
+
+	DIV:
+		--Para escribir un html correcto (Para trabajar correctamente con css), para agrupar o separar contenido:
+		<div></div>
+
+	
+
+	FORMULARIOS:
+		--Para poder usar formularios(input,output)se usa "form" seguido de <input type="text">:
+		 <form>
+		 <input type="text">
+		 n</form>
+
+		 Ejemplos de formularios:
+		<input type="text">						Para ingresr texto
+		<input type="password">					Para ingresar una contraseña
+		<input type="number">					Para ingresar numeros
+		<input type="email">					Para registrar un correo
+		<input type="color">					Para poner un color
+		<input type="range" min="1" max="5">   	Se le asigna un minimo y un maximo al valor del boton(Se ajusta a un rango)
+		<input type="date">						Para ajustar una fecha
+		<input type="time">						Para ajustar un tiempo
+		<input type="button" value="Boton">    	En value se pone el nombre del boton solamente(Solo es un boton)
+		<input type="submit">					Sirve para enviar todos los datos que se coloquen dentro de todos los input(lo mismo del 											boton solo que esta predeterminado, tambien se le puede cambiar el nombre)
+
+
+		--Si se les agrega el atributo required="" no se podra enviar hasta que todos los input se hayan rellenado
+				Ejemplo:
+				<input type="text" required="">
+
+
+
+	METADATOS:
+		Para trabajar con metadatos en HTML se trabaja con la etiqueta <meta charset=""> y se pone en el HEAD:
+		Ejemplos de etiquetas con metadatos:
+			<meta charset="utf-8">									Para poner acentos cuando no son detectados
+			<meta name="keywords" content="Twenty One Pilots,Clique,Tyler Joseph,Josh Dun">		En esta etiqueta se colocan las palabras clave que al buscar 																					 en el navegador identifiquen la pagina web
+			<meta name="description" content="Pagina destinada a tener informacion referida a la banda Estadounidense "Twenty One Pilots" sus albums y canciones, etc">																Aqui va la descripcion de la pagina y va alrededor de 70 a 140 caracteres aprox.
+
+			<meta name="author" content="Warrior">					Aqui va el nombre de el autor 
+			<meta name="copyright" content="Twenty One Pilots">		Es por si la pagina contiene copyright
+			<meta name="robots" content="index">					Es para que la pagina este indexada para que aparezcaen busquedas(Que aparezca en internet)
+			<meta name="robots" content="noindex">					Es para que no aparezca en las busquedas de google
+
+
+
+
+	HEADER:
+		El header es algo de lo principal dentro de el body, ez la seccion en donde se colocan los enlaces por ejemplo: Mi cuenta, Contactenos y asi etc, va acompañado de un nav y seguido de un li. Por ejemplo:
+		<header>
+			<nav>
+				<li><a href="index.html">Pagina principal</a></li>
+				<li><a href="Pagina2.html">Una pagina secundaria</a>
+			</nav>
+		</header>
+
+	ARTICLE Y SECTION:
+	Son para separar un articulo y una seccion en una pagina web
+
+
+
+	ASIDE:
+		Un aside es iformacion extra que se coloca en una pagina web abajo en una parte pequeña(Supongo es opcional)
+		<aside></aside>
+
+
+
+	FOOTER:
+		Un footer es un pie de pagina:
+		<footer></footer>
+
+		-->
+
+
+
+<article>
+	<section>
+
+	<header>
+		<nav>
+			<li><a href="index.html">Pagina principal</a></li>
+			<li><a href="Pagina2.html">Una pagina secundaria</a>
+		</nav>
+	</header>
+
+
+	<h1>This is Twenty One Pilots</h1>
+	
+	<p>
+		<b>Twenty One Pilots <b> es un dúo musical estadounidense de Columbus, Ohio. La banda se formó en 2009 por el vocalista Tyler Joseph junto con Nick Thomas y Chris Salih, quienes se fueron en 2011. <br>Desde su partida, la formación ha consistido en Tyler Joseph y el baterista Josh Dun.<a href="https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw"target="_BLANK">Ver mas en YouTube</a>
+
+		<br><a href="Pagina2.html">Ruta interna</a>
+
+	</section>
+
+	<section>
+
+	</p>
+
+		<h2>Albums:</h2>
+		<ul>
+			<li>Twenty One Pilots</li>
+			<li>Regional At Best</li>
+			<li>Vessel</li>
+			<li>Blurryface</li>
+			<li>Trench</li>
+			<li>Scaled and Icy</li>
+		</ul>
+
+	<br>
+
+	<b>Negrita</b>
+	<i>Italica</i>
+	<strike>Tachada</strike>
+	<small>Letras chicas</small>
+
+	<h2>Una imagen random:</h2>
+	<img src="https://img.gruporeforma.com/imagenes/960x640/6/38/5037538.jpg">
+
+
+	<div>
+		<h2>Tench</h2>
+		<p>
+
+	<ul>
+		<li>1-Jumpsuit</li>
+		<li>2-Levitate</li>
+		<li>3-Morph</li>
+		<li>4-My Blood</li>
+		<li>5-Chlorine</li>
+		<li>6-Smithereens</li>
+		<li>7-Neon Gravestones</li>
+		<li>8-The Hype</li>
+		<li>9-Nico and the Niners</li>
+		<li>10-Cut My Lip</li>
+		<li>11-Bandito</li>
+		<li>12-Pet Cheetah</li>
+		<li>13-Legend</li>
+		<li>14-Leave the City</li>
+	</ul>			
+
+		</p>
+	</div>
+
+
+	<div>
+		<h2>Scaled and icy</h2>
+		<p>
+
+	<ul>
+		<li>1-Good Day</li>
+		<li>2-Choker</li>
+		<li>3-Shy Away</li>
+		<li>4-The Outside</li>
+		<li>5-Saturday</li>
+		<li>6-Never Take It</li>
+		<li>7-Mulberry Street</li>
+		<li>8-Formidable</li>
+		<li>9-Bounce Man</li>
+		<li>10-No Chances</li>
+		<li>11-Redecorate</li>
+	</ul>
+
+		</p>
+	</div>
+
+	<form>
+		<input type="text" required="">
+		<input type="password" required="">
+		<input type="number" required="">
+		<input type="email" required="">
+		<input type="color">
+		<input type="range" min="1" max="5">
+		<input type="date">
+		<input type="time">
+		<textarea readonly="Hola"></textarea>
+		<input type="button" value="Boton">
+		<input type="submit">
+
+
+	</form>
+
+	</section>
+</article> 
+
+		<aside>
+			<h2>Contenido extra</h2>
+		</aside>
+
+	<footer>
+		<h4>Copyright si tuviera</h4>
+		<p>Redes sociales si tuviera</p>
+		<a href="">Aqui iria el link</a>
+	</footer>
+
+</body>
+</html>
