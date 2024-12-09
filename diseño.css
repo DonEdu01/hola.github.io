@@ -1,0 +1,551 @@
+body {
+    background-color: #666565; 
+    font-family: 'Arial', sans-serif;
+    background-image: url('letras.png'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+
+
+/* Estilos básicos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b1aeae;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px; /* Añadir esta línea para redondear las esquinas */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px; /* Añadir esta línea para redondear las esquinas de los enlaces */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #cc3622;
+}
+
+
+
+.selftitle{
+    background-image: url('selftitle.jpg'); 
+}
+
+.scaled{
+    background-image: url('scaled.png'); 
+}
+
+.regional{
+    background-image: url('regional2.png'); 
+}
+
+.vessel{
+    background-image: url('imgvessel.jpg'); 
+}
+
+.blurr{
+    background-image: url('top2.png'); 
+}
+
+.trench{
+    background-image: url('TOP.png'); 
+}
+
+.scaled{
+    background-image: url('scaled.png'); 
+}
+
+.clancy{
+    background-image: url('clancy.png'); 
+}
+
+.linksatras{
+    font-family: 'Arial', sans-serif;
+    padding: 0; 
+    text-align: left; 
+    color: #83ca10; 
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: transparent; 
+    border: none; 
+    
+}
+
+header h1 {
+    font-family: 'Verdana', sans-serif; 
+    font-size: 2.5em; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px rgb(255, 0, 0); 
+    margin: 0; 
+}
+
+
+  
+  /* Estilos del encabezado */
+  .site-header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #fc0000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .site-header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+  /* Para los parrafos */
+p {
+    font-family: 'Courier', sans-serif; 
+    font-size: 1.2em;
+    color: #000000; 
+    text-shadow: 2px 5px 5px rgb(58, 55, 55); 
+    line-height: 1.6; 
+    text-align: justify; 
+    margin: 20px; 
+    
+    
+}
+
+/* Para los fondos, los cuadros negros*/
+.blurred-box {
+    background: rgba(224, 219, 219, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    text-align: center; 
+    width: 90vw; /* Abarca todo el ancho de la pantalla */
+    margin: 20px;
+}
+
+.blurred-box2 {
+    background: rgba(85, 82, 82, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.8); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 10px; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    text-align: center; 
+    width: 90vw; /* Abarca todo el ancho de la pantalla */
+    margin: 20px;
+}
+
+.right-image {
+    width: 30%;
+    margin-left: 20px;
+    border-radius: 10px;
+}  
+/*Para los links */ 
+
+
+p b {
+    color: #000000;
+}
+
+p a {
+    color: #f71000; 
+    text-decoration: none; 
+}
+
+p a:hover {
+    text-decoration: underline; 
+}
+
+
+
+.twe{
+    background-color: #389b38; 
+}
+
+.reg{
+    background-color: #9e9b6d; 
+}
+
+.ves{
+    background-color: #375577; 
+}
+
+.blu{
+    background-color: #e61515; 
+}
+
+.tre{
+    background-color: #949102; 
+}
+
+.sca{
+    background-color: #bd65c0; 
+}
+
+.cla{
+    background-color: #181717; 
+}
+
+
+
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #fff; 
+    text-align: center;
+    margin-bottom: 20px; 
+    padding: 15px 0; 
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    background-color: #f51e07; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 200px; 
+    margin: 70px 0 0 0;
+    
+  }
+
+
+/*Para las listas*/ 
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    text-align: center; 
+    
+}
+
+ul li {
+    font-family: 'Verdana', sans-serif; 
+    font-size: 1.2em; 
+    color: #000000; 
+    margin: 10px 0; 
+    padding: 5px; 
+    background-color: #f0f0f0; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    background-color: transparent; 
+    border: none; 
+}
+
+ul li:hover {
+    background-color: #e0e0e0; 
+}
+
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.contenedor-imagen img {
+    max-width: 80%;
+    height: auto; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/*Para la parte de los enlaces a los albums */ 
+
+.centered-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que los enlaces se ajusten si son muchos */
+  }
+  
+  .centered-links a {
+    margin: 5px; /* Espacio entre enlaces */
+  }
+
+
+/*twentyone*/
+.link-twentyone {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-twentyone:hover {
+    background-color: #0a6e0f;
+    color: white;
+    
+}
+
+/*regional*/
+.link-regional {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-regional:hover {
+    background-color: #8b6704;
+    color: white;
+    
+}
+
+/*vessel*/
+.link-vessel  {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-vessel:hover {
+    background-color: #0b4752;
+    color: white;
+    
+}
+
+/*Blurryface*/
+.link-blurryface {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-blurryface:hover {
+    background-color: #e74c3c;
+    color: white;
+    
+}
+
+/*trench*/
+.link-trench {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-trench:hover {
+    background-color: #e4e70e;
+    color: white;
+    
+}
+
+/*Scaled*/
+.link-scaled {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-scaled:hover {
+    background-color: #3329c4;
+    color: white;
+    
+}
+
+
+/*Clancy*/
+.link-clancy {
+    text-decoration: none;
+    color: #e74c3c; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #c9bebe;
+    
+}
+
+.link-clancy:hover {
+    background-color: #020000;
+    color: white;
+    
+}
+
+
+
+
+
+
+.carousel {
+    display: flex;
+    justify-content: center; /* Centra el carrusel horizontalmente */
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.carousel-images {
+    display: flex;
+    overflow: hidden;
+    width: 600px; /* Aumenta el ancho del contenedor */
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px; /* Debe coincidir con el ancho del contenedor */
+    transition: transform 0.5s ease-in-out; /* Añade la transición para la animación */
+}
+
+.carousel-images img {
+    width: 600px; /* Aumenta el tamaño de las imágenes */
+    transition: transform 0.5s ease;
+}
+
+button {
+    background-color: #be0303;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+}
+
+
+
+
+.top-tab {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 20px; /* Ajusta la posición para más margen abajo */
+    left: 10px; /* Posiciona la pestaña en el lado izquierdo */
+    border-radius: 15px; /* Bordes redondeados */
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra para mejor visibilidad */
+    border-bottom: 4px solid #ec0000;
+}
+
+.top-tab a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top-tab a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+}
+
+.carousel-item img {
+    width: 80%; /* Ajusta el tamaño de las imágenes */
+    display: block;
+}
